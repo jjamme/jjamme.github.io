@@ -29,5 +29,6 @@
 }
 
 .card-image {
-  width: 100%;
+  width: 25%;
+  align-self: center;
 }

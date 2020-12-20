@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "../Cards";
+import Card from "../Cards";
 
 import "../../styles/Home.css";
 import LinkUpImage from "../../images/linkup.png";
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <h1 class="home-header">Collaborative Projects</h1>
       <div class="card-container">
-        <Cards
+        <Card
           title="LinkUp Events"
           link="https://linkupevents.com.au"
           subheading="Backend developer"
@@ -20,7 +20,6 @@ export default function Home() {
           dfjas
           dflkasjdfaskdjf"
         />
-        <Cards title="sadf" />
       </div>
     </>
   );
