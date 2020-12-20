@@ -1,9 +1,9 @@
 .card {
   display: flex;
   overflow: hidden;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
-  width: 30%;
+  width: 60%;
   border-radius: 8px;
   background: #fff;
   margin: 25px;
