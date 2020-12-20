@@ -5,14 +5,7 @@ const Card = ({ title, link, subheading, image, description }) => {
   return (
     <>
       <div class="card">
-        <div
-          style={{
-            backgroundImage: 'url("../images/linkup.png")',
-            backgroundSize: "cover",
-            width: "100%",
-            height: "100%",
-          }}
-        ></div>
+        <img class="gangnam" src={image}></img>
         <div class="card-content">
           <h1 className="card-title">{title}</h1>
           <p class="card-subheading">{subheading}</p>
