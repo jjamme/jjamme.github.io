@@ -1,10 +1,17 @@
-.card-container {
+.projects-container {
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 260px;
 }
 
-.home-header {
+.task-container {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  padding: 0px 18%;
+}
+
+h1 {
   text-align: center;
   color: white;
   padding-top: 20px;
