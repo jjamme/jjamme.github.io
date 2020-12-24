@@ -38,9 +38,11 @@ export default function Home() {
           button="REPOSITORY"
           subheading="C Developer"
           image={VulnBinImage}
-          description={`A collection of binary programs written in C.
-          Vulnerabilities are intentionally added
-          `}
+          description={`A collection of binary programs written in C with vulnerabilities left in to demonstrate binary exploitations.
+          Some of the techniques required to exploit these binaries include:
+          - Buffer overflow
+          - Format string vulnerability
+          - Return oriented programming`}
           tags={[
             {
               link: "https://en.wikipedia.org/wiki/C_(programming_language)",
@@ -58,7 +60,7 @@ export default function Home() {
           button="LINK"
           subheading="2nd Place"
           image={CseSecImage}
-          description={``}
+          description={`Achieved second place in an 8-hour jeopardy style CTF with a team of 4 people.`}
           tags={[
             {
               link: "https://ctf101.org/binary-exploitation/overview/",
@@ -84,7 +86,7 @@ export default function Home() {
           button="LINK"
           subheading="3rd Place"
           image={WitIbmImage}
-          description={`sadf`}
+          description={`Achieved third place in a 3-hour coding competition in a team of 4, hosted by UNSW Women in Technology and sponsored by IBM.`}
           tags={[
             { link: "https://www.python.org/", title: "Python" },
             { link: "", title: "Algorithms" },

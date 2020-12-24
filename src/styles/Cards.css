@@ -74,7 +74,7 @@
   align-items: center;
   flex-direction: row;
   flex-grow: 1;
-  margin-top: 10%;
+  align-content: flex-end;
 }
 
 .tag {
@@ -83,4 +83,8 @@
   color: white;
   border-radius: 5px;
   margin-right: 10px;
+}
+
+.tag-container {
+  height: 35px;
 }
