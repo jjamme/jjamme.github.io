@@ -72,7 +72,10 @@ export default function Home() {
               link: "https://docs.pwntools.com/en/stable/",
               title: "Python - pwntools",
             },
-            { link: "https://github.com/pwndbg/pwndbg", title: "GDB - pwndbg" },
+            {
+              link: "https://github.com/pwndbg/pwndbg",
+              title: "GDB - pwndbg",
+            },
           ]}
         />
         <ShortCard

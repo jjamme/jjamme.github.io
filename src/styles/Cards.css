@@ -70,6 +70,7 @@
 
 .techstack-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: row;
   flex-grow: 1;
