@@ -74,6 +74,7 @@
   align-items: center;
   flex-direction: row;
   flex-grow: 1;
+  margin-top: 10%;
 }
 
 .tag {
