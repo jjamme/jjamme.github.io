@@ -61,6 +61,14 @@ export default function Home() {
           description={``}
           tags={[
             {
+              link: "https://ctf101.org/binary-exploitation/overview/",
+              title: "Binary Exploitation",
+            },
+            {
+              link: "https://ctf101.org/reverse-engineering/overview/",
+              title: "Reverse Engineering",
+            },
+            {
               link: "https://docs.pwntools.com/en/stable/",
               title: "Python - pwntools",
             },
